@@ -1,4 +1,6 @@
-function [Fadim, Isp] = Assigment(alfa, pif, picL, picH)
+function [Fadim, Isp] = calcul (alfa, pif, picL, picH)
+%ASSIGMENT
+clear all
 %% DADES
 g=9.77;
 Tt4=1450;%[K]
